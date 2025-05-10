@@ -70,3 +70,66 @@ button[data-start]:not(:disabled):hover {
   color: #777;
   margin-top: 4px;
 }
+
+/*===================snackbar=========================*/
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form input[type='number'] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+fieldset {
+  margin: 16px 0;
+  border: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+legend {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+fieldset label {
+  display: block;
+  margin-bottom: 6px;
+  cursor: pointer;
+  color: #333;
+}
+
+.form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #6c8cff;
+}
