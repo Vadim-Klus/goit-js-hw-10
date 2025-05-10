@@ -4,6 +4,11 @@
   max-width: 375px;
   margin: 0 auto;
   padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
